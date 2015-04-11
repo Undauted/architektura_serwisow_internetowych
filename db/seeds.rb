@@ -2,9 +2,7 @@ User.create!(name:  "undauted",
              email: "piotrkacprowicz92@gmail.com",
              password:              "lysy10",
              password_confirmation: "lysy10",
-             admin:     true,
-             activated: true,
-             activated_at: Time.zone.now)
+             admin:     true)
              
 
 99.times do |n|
@@ -14,7 +12,5 @@ User.create!(name:  "undauted",
   User.create!(name:  name,
                email: email,
                password:              password,
-             password_confirmation: password,
-              activated: true,
-              activated_at: Time.zone.now)
+             password_confirmation: password)
 end

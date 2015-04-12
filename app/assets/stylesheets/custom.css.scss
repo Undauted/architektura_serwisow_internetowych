@@ -24,8 +24,12 @@ section {
 textarea {
   resize: vertical;
 }
+#down{
+  padding-top:100px;
+}
 
 .center {
+  
   text-align: center;
   h1 {
     margin-bottom: 10px;
@@ -99,6 +103,7 @@ footer {
     li {
       float: left;
       margin-left: 15px;
+      
     }
   }
 }
@@ -287,4 +292,27 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+.help{
+  font-size:2em;
+}
+
+.naglowki{
+  font-size:1.5em;
+  border:3px solid lightblue;
+  padding:6px;
+  padding-left:10px;
+  
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
+
+.tekst{
+  
+  font-size:1.3em;
+  color:blue;
+  padding-left:10px;
 }

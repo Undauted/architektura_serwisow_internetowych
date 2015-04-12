@@ -1,13 +1,13 @@
 <%= render 'shared/error_messages' %>
 
-<%= f.label :name %>
+<%= f.label :name, "Login" %>
 <%= f.text_field :name, class: 'form-control' %>
 
-<%= f.label :email %>
+<%= f.label :email, "Email" %>
 <%= f.email_field :email, class: 'form-control' %>
 
-<%= f.label :password %>
+<%= f.label :password, "Hasło" %>
 <%= f.password_field :password, class: 'form-control' %>
 
-<%= f.label :password_confirmation, "Confirmation" %>
+<%= f.label :password_confirmation, "Potwierdź hasło" %>
 <%= f.password_field :password_confirmation, class: 'form-control' %>

@@ -14,7 +14,11 @@
       <% flash.each do |message_type, message| %>
         <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
       <% end %>
+      
       <%= yield %>
+      <div class="zdjecie">
+           <img src="http://i.imgur.com/7f9zCcj.png" alt="Smiley face" height="200" width="300">
+    </div>
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>
     </div>

@@ -15,6 +15,8 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  background-color:#444444;
+  color:white;
 }
 
 section {
@@ -31,6 +33,12 @@ textarea {
 .center {
   
   text-align: center;
+  border:5px solid lightblue;
+   border-top-left-radius:100px;
+  border-top-right-radius:100px;
+  border-bottom-right-radius:100px;
+  border-bottom-left-radius:100px;
+  padding:45px;
   h1 {
     margin-bottom: 10px;
   }
@@ -55,7 +63,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: #BBBBBB;
 }
 
 p {
@@ -86,12 +94,13 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
+  border-top: 1px solid #BBBBBB;
+  color: #BBBBBB;
   a {
-    color: $gray;
+    color: #BBBBBB;
     &:hover {
-      color: $gray-darker;
+      color: white;
+      text-decoration: none;
     }
   }
   small {
@@ -100,6 +109,7 @@ footer {
   ul {
     float: right;
     list-style: none;
+    
     li {
       float: left;
       margin-left: 15px;
@@ -163,14 +173,14 @@ aside {
     float: left;
     padding: 0 10px;
     border-left: 1px solid $gray-lighter;
-    color: gray;
+    color: white;
     &:first-child {
       padding-left: 0;
       border: 0;
     }
     &:hover {
       text-decoration: none;
-      color: blue;
+      color: white;
     }
   }
   strong {
@@ -269,7 +279,7 @@ input {
     }
   }
   .timestamp {
-    color: $gray-light;
+    color: white;
     display: block;
     margin-left: 60px;
   }
@@ -308,6 +318,8 @@ span.picture {
   border-top-right-radius:15px;
   border-bottom-right-radius:15px;
   border-bottom-left-radius:15px;
+  
+  color:#BBBBBB;
 }
 
 .tekst{
@@ -315,4 +327,12 @@ span.picture {
   font-size:1.3em;
   color:blue;
   padding-left:10px;
+}
+
+.zdjecie{
+  text-align:center;
+
+}
+.zdjecie_footer{
+  padding-left:400px;
 }

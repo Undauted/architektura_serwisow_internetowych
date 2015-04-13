@@ -22,9 +22,10 @@
     <h3><%= @title %></h3>
     <% if @users.any? %>
       <ul class="users follow">
+          <%= will_paginate @feed_items,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->' %>
         <%= render @users %>
       </ul>
-      <%= will_paginate %>
+      <%= will_paginate @feed_items,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->' %>
     <% end %>
   </div>
 </div>

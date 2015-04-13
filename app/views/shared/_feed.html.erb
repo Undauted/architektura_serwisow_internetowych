@@ -1,6 +1,7 @@
 <% if @feed_items.any? %>
   <ol class="microposts">
+    <%= will_paginate @feed_items,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->' %>
     <%= render @feed_items %>
   </ol>
-  <%= will_paginate @feed_items %>
+  <%= will_paginate @feed_items,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->' %>
 <% end %>

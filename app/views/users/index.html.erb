@@ -1,10 +1,11 @@
 <% provide(:title, 'Użytkownicy') %>
 <h1>Wszyscy użytkownicy</h1>
 
-<%= will_paginate %>
+<%= will_paginate @feed_items,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->'%>
+
 
 <ul class="users">
   <%= render @users %>
 </ul>
 
-<%= will_paginate %>
+<%= will_paginate @feed_items,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->'%>

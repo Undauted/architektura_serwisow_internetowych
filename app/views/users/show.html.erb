@@ -13,12 +13,15 @@
   </aside>
   <div class="col-md-8">
     <%= render 'follow_form' if logged_in? %>
+    
     <% if @user.microposts.any? %>
       <h3>Posty (<%= @user.microposts.count %>)</h3>
+        <%= will_paginate @microposts ,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->' %>
       <ol class="microposts">
+       
         <%= render @microposts %>
       </ol>
-      <%= will_paginate @microposts %>
+      <%= will_paginate @microposts ,  :previous_label => '<- Poprzednia', :next_label => 'Następna ->' %>
     <% end %>
   </div>
 </div>

@@ -145,6 +145,7 @@ aside {
       display: block;
       margin-bottom: 3px;
       line-height: 1;
+      text-decoration:none;
     }
     h1 {
       font-size: 1.4em;
@@ -308,11 +309,7 @@ span.picture {
 .help{
   font-size:2em;
 }
-.color{
-  color:black;
-  width:500px;
-  margin-left:28%;
-}
+
 
 .naglowki{
   font-size:1.5em;
@@ -341,4 +338,14 @@ span.picture {
 }
 .zdjecie_footer{
   padding-left:400px;
+}
+
+.color{
+  color:black;
+  width:500px;
+  margin-left:28%;
+}
+
+.find{
+  text-decoration:none;
 }

@@ -1,6 +1,4 @@
-# Ruby on Rails Tutorial: sample application
+# Architektyra serwisów internetowych
 
-This is the sample application for the
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+Projekt na zaliczenie.
+Serwis społecznościowy udostępniający usługę mikroblogowania.
